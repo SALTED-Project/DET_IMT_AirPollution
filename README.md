@@ -1,9 +1,10 @@
 # Air Pollution Data Enrichment Toolchain by IMT
 
 ## Introduction
+#### 📝 Description
 This Python script processes air quality data for Madrid obtained from various sources within the SALTED project. It converts the time format, retrieves data from different pollutants, and merges datasets for further analysis. The processed data is then formatted and converted into NGSI-LD format.
 
-#### 📝 Description
+#### :arrow_forward: Workflow
 -   The script converts time strings to a float representation.
 -   Air quality data for O3, SO2, CO, PM1, C6H6, PM2, NO, and NO2 is retrieved from respective URLs (European Open Portal or Madrid open portal).
 -   Weather data is obtained from visual crossing in excel format.
